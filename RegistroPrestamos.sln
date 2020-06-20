@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroPrestamos", "RegistroPrestamos\RegistroPrestamos.csproj", "{76069737-2D1C-4049-A3D3-97EA6F1477D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroPrestamosTests", "RegistroPrestamosTests\RegistroPrestamosTests.csproj", "{D063AD6F-791D-48CB-8C2E-1FF8A43C0E75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{76069737-2D1C-4049-A3D3-97EA6F1477D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76069737-2D1C-4049-A3D3-97EA6F1477D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76069737-2D1C-4049-A3D3-97EA6F1477D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D063AD6F-791D-48CB-8C2E-1FF8A43C0E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D063AD6F-791D-48CB-8C2E-1FF8A43C0E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D063AD6F-791D-48CB-8C2E-1FF8A43C0E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D063AD6F-791D-48CB-8C2E-1FF8A43C0E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
