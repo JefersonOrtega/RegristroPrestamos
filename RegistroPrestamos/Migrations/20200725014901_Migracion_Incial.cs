@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RegistroPrestamos.Migrations
 {
-    public partial class MigracionInicial : Migration
+    public partial class Migracion_Incial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

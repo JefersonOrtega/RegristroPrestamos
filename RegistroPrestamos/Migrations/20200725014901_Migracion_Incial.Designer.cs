@@ -9,8 +9,8 @@ using RegistroPrestamos.DAL;
 namespace RegistroPrestamos.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20200620150835_MigracionInicial")]
-    partial class MigracionInicial
+    [Migration("20200725014901_Migracion_Incial")]
+    partial class Migracion_Incial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -88,7 +88,7 @@ namespace RegistroPrestamos.Migrations
             modelBuilder.Entity("RegistroPrestamos.Models.MorasDetalle", b =>
                 {
                     b.HasOne("RegistroPrestamos.Models.Prestamos", null)
-                        .WithMany("MorasDetalles")
+                        .WithMany("MorasDetalle")
                         .HasForeignKey("MoraId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
